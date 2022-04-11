@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+   
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+   border-top:2px solid black
+   
+   
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    
+}
+#gab{
+    display: flex;
+    gap: 15%;
+    margin: 15px;
+    border: 2px 0 0 0;
+    
+}
